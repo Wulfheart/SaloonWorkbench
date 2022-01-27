@@ -1,0 +1,13 @@
+{
+    "name": "alex/saloon-workbench",
+    "require": {
+        "sammyjo20/saloon": "dev-custom-response"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../Saloon"
+        }
+    ]
+
+}
