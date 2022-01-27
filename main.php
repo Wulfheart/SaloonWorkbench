@@ -18,6 +18,9 @@ class Response extends \Sammyjo20\Saloon\Http\SaloonResponse
     }
 }
 
+/**
+ * @method Response send()
+ */
 class GetRequest extends \Sammyjo20\Saloon\Http\SaloonRequest
 {
     protected ?string $connector = Connector::class;
